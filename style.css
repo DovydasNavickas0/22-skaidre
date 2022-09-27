@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 15%;
+    background-color: cornflowerblue;
+    border: solid 1px white;
+}
+
+.box{
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hero{
+    height: 40%;
+    width: 40%;
+    border: solid 1px white;
+    background-color: rgb(241, 76, 76);
+}
+
+.sidebar{
+    height: 60%;
+    width: 40%;
+    border: solid 1px white;
+    background-color: rgb(189, 72, 189);
+}
+
+.main{    
+    height: 70%;
+    width: 60%;
+    border: solid 1px white;
+    background-color: rgb(253, 85, 164);
+}
+
+.extra{
+    height: 30%;
+    width: 60%;
+    border: solid 1px white;
+    background-color: rgb(83, 215, 255);
+}
+
+.box2{
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+}
+
+.image{
+    height: 100%;
+    width: 60%;
+    border: solid 1px white;
+    background-color: rgb(95, 241, 76);
+}
+
+.related{
+    height: 100%;
+    width: 40%;
+    border: solid 1px white;
+    background-color: rgb(248, 250, 107);
+}
+
+footer{
+    height: 15%;
+    background-color: burlywood;
+    border: solid 1px white;
+}
